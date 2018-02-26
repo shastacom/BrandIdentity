@@ -23,7 +23,7 @@ class ProcessBrandIdentityConfig extends ModuleConfig {
 
 			// Text field: notification
 			array(
-				'name' => 'notification', // name of field
+				'name' => 'brand_name', // name of field
 				'type' => 'text', // type of field (any Inputfield module name)
 				'label' => $this->_('Brand Identity'), // field label
 				'description' => $this->_('Brand Name'),
