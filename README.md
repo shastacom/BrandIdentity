@@ -7,7 +7,7 @@ This version of Brand Identity is designed for ProcessWire 2.5.5 or newer.
 
 ## Quick start
 
-```php echo wire()->modules->get('ProcessBrandIdentity')->name; ```
+``` echo wire()->modules->get('ProcessBrandIdentity')->name; ```
 
 To see exactly what this module does, you may want to install it as-is first.
 
