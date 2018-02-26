@@ -42,7 +42,7 @@ class ProcessBrandIdentity extends Process {
 		// generate some navigation
 
 		$out = 	"
-			<h2>$this->notification</h2>
+			<h2>$this->brand_name</h2>
 			<dl class='nav'>
 				<dt>Set the brand name in the module's setting.</dt>
 				<dd>Modules > Site > Brand Identity > Settings</dd>
