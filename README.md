@@ -12,7 +12,7 @@ echo
   wire() ->
     modules ->
       get('ProcessBrandIdentity') ->
-        name
+        brand_name
 ;
 ```
 
