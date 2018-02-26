@@ -1,5 +1,6 @@
 #TL;DR
-<?php echo wire()->modules->get('ProcessBrandIdentity')->name; ?>
+
+'<?php echo wire()->modules->get('ProcessBrandIdentity')->name; ?>'
 
 # Brand Identity Module
 
