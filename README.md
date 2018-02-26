@@ -1,3 +1,6 @@
+#TL;DR
+<?php echo wire()->modules->get('ProcessBrandIdentity')->name; ?>
+
 # Brand Identity Module
 
 A ProcessWire module for setting the brand name for a website.
