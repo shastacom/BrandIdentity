@@ -15,20 +15,36 @@
  *
  */
 
-class ProcessBrandIdentityConfig extends ModuleConfig {
-
-	public function __construct() {
-
-		$this->add(array(
-
-			// Text field: notification
-			array(
-				'name' => 'brand_name', // name of field
-				'type' => 'text', // type of field (any Inputfield module name)
-				'label' => $this->_('Brand Identity'), // field label
+class ProcessBrandIdentityConfig extends ModuleConfig
+{
+	public function __construct()
+  {
+		$this -> add( array
+    (
+			array
+      (
+				'name' => 'brand_name',
+				'type' => 'text',
+				'label' => $this->_('Brand Identity'),
 				'description' => $this->_('Brand Name'),
 				'required' => true,
-				'value' => $this->_('Lorem Ipsum'), // default value
+				'value' => $this->_('Lorem Ipsum'),
+			),
+			array
+      (
+				'name' => 'brand_motto',
+				'type' => 'text',
+				'label' => $this->_('Brand Motto'),
+				'required' => true,
+				'value' => $this->_('Nulla At Accumsan Justo'),
+			),
+			array
+      (
+				'name' => 'brand_tagline',
+				'type' => 'text',
+				'label' => $this->_('Tagline'),
+				'required' => true,
+				'value' => $this->_('Maecenas facilisis eros ut risus tempor, sed suscipit leo efficitur.'),
 			)
 		));
 	}
