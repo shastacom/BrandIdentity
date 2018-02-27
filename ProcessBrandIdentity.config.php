@@ -45,6 +45,70 @@ class ProcessBrandIdentityConfig extends ModuleConfig
 				'label' => $this->_('Tagline'),
 				'required' => true,
 				'value' => $this->_('Maecenas facilisis eros ut risus tempor, sed suscipit leo efficitur.'),
+			),
+			array
+      (
+				'name' => 'company_email',
+				'type' => 'text',
+				'label' => $this->_('Company Email'),
+				'required' => true,
+				'value' => $this->_('Lorem@Ipsum.com'),
+			),
+			array
+      (
+				'name' => 'company_phone',
+				'type' => 'text',
+				'label' => $this->_('Company Phone'),
+				'required' => true,
+				'value' => $this->_('+1 234 567 8901'),
+			),
+			array
+      (
+				'name' => 'company_address',
+				'type' => 'text',
+				'label' => $this->_('Company Address'),
+				'required' => true,
+				'value' => $this->_('1234 Main St'),
+			),
+			array
+      (
+				'name' => 'company_city',
+				'type' => 'text',
+				'label' => $this->_('Company City'),
+				'required' => true,
+				'value' => $this->_('Nowhere'),
+			),
+			array
+      (
+				'name' => 'company_state',
+				'type' => 'text',
+				'label' => $this->_('Company State'),
+				'required' => true,
+				'value' => $this->_('NY'),
+			),
+			array
+      (
+				'name' => 'company_zip',
+				'type' => 'text',
+				'label' => $this->_('Company Zip'),
+				'required' => true,
+				'value' => $this->_('12345'),
+			),
+			array
+      (
+				'name' => 'latitude',
+				'type' => 'text',
+				'label' => $this->_('Latitude'),
+				'required' => true,
+				'value' => $this->_('40.5730834'),
+			),
+			array
+      (
+				'name' => 'longitude',
+				'type' => 'text',
+				'label' => $this->_('Longitude'),
+				'required' => true,
+				'value' => $this->_('-122.4018829'),
 			)
 		));
 	}
