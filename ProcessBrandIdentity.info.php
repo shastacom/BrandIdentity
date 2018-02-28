@@ -30,7 +30,7 @@ $info = array(
 
 	// permissions that you want automatically installed/uninstalled with this module (name => description)
 	'permissions' => array(
-		'helloworld' => 'Run the Brand Identity module'
+		'brandidentity' => 'Run the Brand Identity module'
 	),
 
 	// page that you want created to execute this module

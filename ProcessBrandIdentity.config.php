@@ -48,6 +48,14 @@ class ProcessBrandIdentityConfig extends ModuleConfig
 			),
 			array
       (
+				'name' => 'brand_mission',
+				'type' => 'text',
+				'label' => $this->_('Mission Statement'),
+				'required' => true,
+				'value' => $this->_('Dis parturient montes nascetur ridiculus mus mauris vitae ultricies leo integer malesuada nunc vel risus commodo viverra maecenas accumsan lacus vel facilisis volutpat est.'),
+			),
+			array
+      (
 				'name' => 'company_email',
 				'type' => 'text',
 				'label' => $this->_('Company Email'),
