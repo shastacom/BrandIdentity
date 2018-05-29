@@ -46,7 +46,7 @@ class ProcessBrandIdentity extends Process {
 			<dl class='nav'>
 				<dt>Set the brand name in the module's setting.</dt>
 				<dd>Modules > Site > Brand Identity > Settings</dd>
-				<dt>Set guest permission to run the module.</dt>
+				<dt>Set guest permission to run the module( display values front-side ).</dt>
 				<dd>Access > Roles > guest > Permissions > brandidentity</dd>
 			</dl>
 			";
