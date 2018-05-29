@@ -125,6 +125,38 @@ class ProcessBrandIdentityConfig extends ModuleConfig
 				'label' => $this->_('Longitude'),
 				'required' => true,
 				'value' => $this->_('-122.4018829'),
+			),
+			array
+      (
+				'name' => 'facebook',
+				'type' => 'text',
+				'label' => $this->_('Facebook'),
+				'required' => true,
+				'value' => $this->_('https://www.facebook.com/'),
+			),
+			array
+      (
+				'name' => 'twitter',
+				'type' => 'text',
+				'label' => $this->_('Twitter'),
+				'required' => true,
+				'value' => $this->_('https://twitter.com/'),
+			),
+			array
+      (
+				'name' => 'instagram',
+				'type' => 'text',
+				'label' => $this->_('Instagram'),
+				'required' => true,
+				'value' => $this->_('https://www.instagram.com/'),
+			),
+			array
+      (
+				'name' => 'linkedin',
+				'type' => 'text',
+				'label' => $this->_('Linkedin'),
+				'required' => true,
+				'value' => $this->_('https://www.linkedin.com/in/'),
 			)
 		));
 	}
