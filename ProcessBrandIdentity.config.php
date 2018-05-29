@@ -32,15 +32,15 @@ class ProcessBrandIdentityConfig extends ModuleConfig
 			),
 			array
       (
-				'name' => 'brand_motto',
+				'name' => 'motto',
 				'type' => 'text',
-				'label' => $this->_('Brand Motto'),
+				'label' => $this->_('Motto'),
 				'required' => true,
 				'value' => $this->_('Nulla At Accumsan Justo'),
 			),
 			array
       (
-				'name' => 'brand_tagline',
+				'name' => 'tagline',
 				'type' => 'text',
 				'label' => $this->_('Tagline'),
 				'required' => true,
@@ -48,7 +48,7 @@ class ProcessBrandIdentityConfig extends ModuleConfig
 			),
 			array
       (
-				'name' => 'brand_mission',
+				'name' => 'mission',
 				'type' => 'text',
 				'label' => $this->_('Mission Statement'),
 				'required' => true,
@@ -56,49 +56,57 @@ class ProcessBrandIdentityConfig extends ModuleConfig
 			),
 			array
       (
-				'name' => 'company_email',
+				'name' => 'brief_description',
 				'type' => 'text',
-				'label' => $this->_('Company Email'),
+				'label' => $this->_('Brief Description'),
+				'required' => true,
+				'value' => $this->_('Dis parturient montes nascetur ridiculus mus mauris vitae ultricies leo integer malesuada nunc vel risus commodo viverra maecenas accumsan lacus vel facilisis volutpat est.'),
+			),
+			array
+      (
+				'name' => 'email',
+				'type' => 'text',
+				'label' => $this->_('Email'),
 				'required' => true,
 				'value' => $this->_('Lorem@Ipsum.com'),
 			),
 			array
       (
-				'name' => 'company_phone',
+				'name' => 'phone',
 				'type' => 'text',
-				'label' => $this->_('Company Phone'),
+				'label' => $this->_('Phone'),
 				'required' => true,
 				'value' => $this->_('+1 234 567 8901'),
 			),
 			array
       (
-				'name' => 'company_address',
+				'name' => 'address',
 				'type' => 'text',
-				'label' => $this->_('Company Address'),
+				'label' => $this->_('Address'),
 				'required' => true,
 				'value' => $this->_('1234 Main St'),
 			),
 			array
       (
-				'name' => 'company_city',
+				'name' => 'city',
 				'type' => 'text',
-				'label' => $this->_('Company City'),
+				'label' => $this->_('City'),
 				'required' => true,
 				'value' => $this->_('Nowhere'),
 			),
 			array
       (
-				'name' => 'company_state',
+				'name' => 'state',
 				'type' => 'text',
-				'label' => $this->_('Company State'),
+				'label' => $this->_('State'),
 				'required' => true,
 				'value' => $this->_('NY'),
 			),
 			array
       (
-				'name' => 'company_zip',
+				'name' => 'zip',
 				'type' => 'text',
-				'label' => $this->_('Company Zip'),
+				'label' => $this->_('Zip'),
 				'required' => true,
 				'value' => $this->_('12345'),
 			),
